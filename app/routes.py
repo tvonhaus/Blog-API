@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 import requests
 from app import app
 
-url = "https://api.hatchways.io/assessment/blog/posts?tag="
+url = "https://api/blog/posts?tag="
 
 @app.route('/api/ping')
 def ping_api():
